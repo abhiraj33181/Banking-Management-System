@@ -3,10 +3,10 @@
 A secure and scalable Banking Management System built using Node.js, Express, and MongoDB.  
 This project simulates real-world banking operations including account management, transactions, authentication, and ledger tracking.
 
-
 ## 🚀 Features
 
 ### 🔐 Authentication & Security
+
 - User Registration & Login
 - Password Hashing using bcrypt
 - JWT-based Authentication
@@ -14,6 +14,7 @@ This project simulates real-world banking operations including account managemen
 - Role-Based Access Control (Admin/User)
 
 ### 💳 Banking Operations
+
 - Create Bank Account
 - Deposit Money
 - Withdraw Money
@@ -24,12 +25,12 @@ This project simulates real-world banking operations including account managemen
 - Negative Balance Prevention
 
 ### 📊 System Design
+
 - MVC Architecture
 - Middleware-based Authentication
 - Centralized Error Handling
 - Modular Code Structure
 - Environment-based Configuration
-
 
 ## 🛠️ Tech Stack
 
@@ -41,7 +42,6 @@ This project simulates real-world banking operations including account managemen
 - bcrypt
 - Nodemailer (Email Service)
 - dotenv
-
 
 ## 📂 Project Structure
 
@@ -81,6 +81,41 @@ Banking-Management-System/
 
 ```
 
+## 🌍 Live Deployment
+
+The project is successfully deployed on Render and accessible at:
+
+🔗 **Live API URL:**
+
+```
+https://banking-management-system-f7zk.onrender.com/
+```
+
+### 🧪 How to Test the Live API
+
+You can test endpoints using:
+
+- Postman
+- Thunder Client (VS Code)
+- cURL
+- Any API testing tool
+
+Example:
+
+POST https://banking-management-system-f7zk.onrender.com/api/users/register
+
+⚠️ Note:
+
+- The free Render plan may cause the server to sleep after inactivity.
+- First request may take 30–60 seconds to respond.
+
+## ☁️ Deployment Details
+
+- Backend Hosted on: Render
+- Database: MongoDB Atlas
+- Environment Variables: Managed securely via Render dashboard
+- Runtime: Node.js
+
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
@@ -88,7 +123,7 @@ Banking-Management-System/
 ```bash
 git clone https://github.com/abhiraj33181/Banking-Management-System.git
 cd Banking-Management-System
-````
+```
 
 ### 2️⃣ Install Dependencies
 
@@ -120,7 +155,6 @@ Server will start at:
 http://localhost:5000
 ```
 
-
 ## 🔑 API Endpoints
 
 ### 👤 User Routes
@@ -131,7 +165,6 @@ http://localhost:5000
 | POST   | /api/users/login    | Login User    |
 | POST   | /api/users/logout   | Logout User   |
 
-
 ### 💳 Account Routes
 
 | Method | Endpoint              | Description         |
@@ -140,7 +173,6 @@ http://localhost:5000
 | GET    | /api/accounts/balance | Check Balance       |
 | GET    | /api/accounts/history | Transaction History |
 
-
 ### 💰 Transaction Routes
 
 | Method | Endpoint                   | Description    |
@@ -148,62 +180,55 @@ http://localhost:5000
 | POST   | /api/transactions/deposit  | Deposit Money  |
 | POST   | /api/transactions/withdraw | Withdraw Money |
 
-
 ## 🔒 Security Implementation
 
-* Password stored as hashed value using bcrypt
-* JWT authentication with middleware protection
-* Token blacklist system implemented
-* Double withdrawal prevention
-* Negative balance validation
-* Role-based access handling
-
+- Password stored as hashed value using bcrypt
+- JWT authentication with middleware protection
+- Token blacklist system implemented
+- Double withdrawal prevention
+- Negative balance validation
+- Role-based access handling
 
 ## 🧠 Advanced Logic
 
-* Atomic transaction handling
-* Ledger system to maintain financial tracking
-* Modular architecture for scalability
-* Separation of controller, service, and middleware layers
-
+- Atomic transaction handling
+- Ledger system to maintain financial tracking
+- Modular architecture for scalability
+- Separation of controller, service, and middleware layers
 
 ## 📈 Future Improvements
 
-* Rate Limiting
-* API Documentation using Swagger
-* Docker Deployment
-* CI/CD Integration
-* Unit & Integration Testing
-* OTP Verification
-* Transaction Audit Logs
-
+- Rate Limiting
+- API Documentation using Swagger
+- Docker Deployment
+- CI/CD Integration
+- Unit & Integration Testing
+- OTP Verification
+- Transaction Audit Logs
 
 ## 🌍 Deployment
 
 Recommended Deployment Platforms:
 
-* Backend: Render
-* Database: MongoDB Atlas
-* Frontend (if applicable): Vercel
-
+- Backend: Render
+- Database: MongoDB Atlas
+- Frontend (if applicable): Vercel
 
 ## 📌 Why This Project?
 
 This project demonstrates:
 
-* Backend Architecture Design
-* Secure Authentication
-* Financial Transaction Logic
-* Real-world Banking Simulation
-* Production-ready Code Structure
-
+- Backend Architecture Design
+- Secure Authentication
+- Financial Transaction Logic
+- Real-world Banking Simulation
+- Production-ready Code Structure
 
 ## 👨‍💻 Author
 
 Abhishek Raj
 Backend Developer | MERN Stack Developer
 Focused on building secure and scalable backend systems.
-
 
 ## ⭐ If You Like This Project
 
